@@ -1,0 +1,502 @@
+ 
+
+ .mulish-normal{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+ 
+ *{   
+     margin: 0 auto;
+     padding: 0;
+     box-sizing: border-box;
+     margin-top: 2%;
+ }  
+    .display-flex{
+       display: flex;
+    }
+   /* body{
+     margin: 0 8.4rem;
+   } */
+   .display-flex{
+     display: flex;
+   }
+   .primary-color{
+     color: black;
+   }
+   
+   .hamburger-icon{
+     display: none;
+   }
+   .home-bar{
+     color: orangered;
+   }
+   .lists{
+     align-items: center;
+     justify-content: space-between;
+   }
+  .lists>li{
+     list-style: none;
+    margin-right: 2.8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }  
+  a{
+     text-decoration: none;
+     color: black;
+  }
+  
+   .navbar{
+     width: 80%;
+     margin:0 auto;
+     justify-content: space-between;
+     align-items: center;
+   
+     margin-bottom: 3.12rem;
+    
+   }
+   .navbar img{
+     max-width: 50px;
+   }
+   .div-xplor-container{
+     width: 80%;
+     margin: 0 auto;
+     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+     background-repeat:no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-color: rgba(19, 19, 24, 0.6);
+     background-blend-mode: overlay;
+     text-align: center;
+     padding: 6rem 11rem;
+ 
+   }
+  
+  
+   .input-container{
+     border-radius: 8px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-size: 1rem;
+     font-weight: 400;
+     width: 90%;
+     height: 70%;
+     padding: 10% 0%;
+     background-color: rgba(234, 237, 217, 0.312);
+     background-blend-mode: overlay;
+     border: none;
+   }
+   .input-container input,
+    .input-container select,
+    .input-container button{
+      border-radius: 5px;
+      border: none;
+      justify-content: space-between;
+      gap: 2%;
+    }
+   input,select{
+     width:22%;
+     height: 52px;
+     padding: 2%;
+   }
+   .logo{
+ 
+     font-size: 1.5rem;
+   }
+   .container1 h1{
+     font-size: 4rem;
+     font-weight: 700;
+     color: white;
+    margin-bottom: 1.2rem;
+ 
+   }
+   .container1 p{
+     font-size: 1rem;
+     font-weight: 400;
+     color: white;
+     margin-bottom: 3rem;
+   }
+   .btn-primary{
+     color: white;
+     font-size: 1rem;
+     font-weight: 700;
+     width: 20%;
+     height: 50px;
+     margin: 0 24px;
+     background-color: orangered;
+     border: none;
+   }
+   .popular-tour{
+     width: 75%;
+     
+   }
+     .popular-tour-container{
+       max-width: 7200%;
+       margin: 70px 0;
+     }
+     /* .popular-tour-content{
+       border: 2px solid black;
+     } */
+   .child1-of-popular-tour h1{
+     font-size: 50px;
+     font-weight: 700;
+     margin-bottom: 20px;
+   }
+   .child1-of-popular-tour p{
+     margin-bottom: 20px;
+   } 
+   .child1-of-popular-tour ul{
+    padding-left: 5%;
+   }
+   li{
+     margin-bottom: 15px
+   }
+   .read-more-btn{
+     background-color: orangered;
+     color: white;
+     font-size: 17px;
+     font-weight: 700;
+     width: 120px;
+     height: 50px;
+     border: none;
+     border-radius: 6px;
+     margin-left: 2%;
+     margin-bottom: 2%;
+   }
+   .destination{
+     text-align: center;
+    
+   }
+   .destinstion img{
+     width: 100%;
+    
+     filter:brightness(70%);
+   }
+  /* .choose-us */
+   .country-card{
+     position:relative;
+   }
+   .country{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     font-size: 28px;
+     font-weight: bold;
+      transform: translate(-50%,-50%);
+   }
+     .grid-of-different-size{
+      
+       /* border: 2px solid red; */
+       margin-bottom: 5%;
+     }
+     .grid-of-different-size-container{
+       width: 80%;
+     }
+      .destination-heading h1,
+      .choose-us-content h1{
+       font-size: 35px;
+       font-weight:900;
+       margin-bottom: 1.2%;
+      }
+      
+      .destination-heading p,
+      .choose-us-content p{
+       margin-bottom: 1.2%;}
+       .grid-of-different-size{
+         width: 85%;
+       }
+   .grid-of-different-size-content{
+       display: grid;
+       grid-template-columns: repeat(12,1fr);
+       min-height: 280px;
+   }
+   .positionn{
+     position: relative;
+   }
+    .maldives{
+        grid-column:1/span 6;
+    }
+     .indonesia{
+        grid-column: 7/span 6;
+     }
+     .maldives-heading,
+     .indonesia-heading,
+     .srilanka-heading,
+     .north-america-heading,
+     .kashmir-heading,
+     .bangladesh-heading,
+     .bandarban-heading{
+       position: absolute;
+       top: 120px;
+       left: 150px;
+     }
+    .srilanka{
+     grid-column: 1/span 4;
+    }
+      .north-america{
+         grid-column: 5/span 5;
+      }
+      .kashmir{
+         grid-column: 10/span 3;
+      }
+       .bangladesh{
+          grid-column: 1/span 5;
+       }
+        .bandarban{
+         grid-column: 6 /span 7;
+        }
+        .choose-us-container{
+         width: 70%;
+         /* border: 2px solid yellow; */
+        }
+         .choose-us{
+           /* border: 2px solid yellow; */
+           margin: 3% 0;
+         }
+        .choose-us-content{
+         text-align: center;
+        
+        } 
+        /* .hotel-service{
+ 
+        } */
+         .hotel-service{
+           display: grid;
+           grid-template-columns: repeat(12,1fr);
+           min-height: 250px;
+           gap: 15px 0;
+           padding: 2%;
+         }
+         .handpicked-hotels{
+            grid-column: 1/span 5;
+            background-color: rgba(246, 234, 219, 0.278);
+            border-radius: 5px;
+            border: 2px solid rgba(255, 68, 0, 0.182);
+         }
+          .world-class-service{
+            grid-column: 7/span 6;
+            background-color: rgba(197, 211, 179, 0.127);
+            border-radius: 5px ;
+            border: 2px solid rgba(152, 251, 152, 0.514);
+          }
+            .best-price-gurranty{
+             grid-column: 4/span 6;
+             background-color: rgba(240, 212, 216, 0.399);
+             border: 2px solid papayawhip;
+             border-radius: 5px;
+            }
+            .hotel-service i,
+            .hotel-service h1,
+            .hotel-service p{
+             margin-bottom: 1.5%;
+             margin: 3%;
+            }
+             .positionn img{
+               width: 100%;
+             }
+             /* .deals-discount{
+               
+               border: 2px solid red;
+             } */
+              .deals-discount{
+               width: 80%;
+               /* border: 2px solid green; */
+              }
+              .image-section1 img{
+               width: 100%;
+              }
+             .deals-discount-content{
+               position: relative;
+               /* border: 2px solid red; */
+             }
+             /* .deals-discount-container{
+               border: 2px solid green;
+             } */
+              .features{
+               background:transparent;
+               position:absolute;
+               width: 40%;
+               height: 15%;
+               top:150px;
+               right: 120px;
+               border-radius: 25px;
+               padding: 3%;
+               border: 2px solid white;
+               background-color: rgba(226, 227, 215, 0.859);
+               background-blend-mode: overlay;
+              }
+              
+              .features2{
+               /* top: 40px; */
+               position: absolute;
+               top: 700px;
+               left: 30px;
+               width: 40%;
+               height: 15%;
+               border: 2px solid white;
+               border-radius: 25px;
+               padding: 3%;
+               background-color: rgba(226, 227, 215, 0.859);
+               background-blend-mode: overlay;
+              }
+              .features3{
+               position:absolute;
+               width: 40%;
+               height: 15%;
+               border: 2px solid white;
+               border-radius: 25px;
+               padding: 3%;
+               background-color: rgba(226, 227, 215, 0.859);
+               background-blend-mode: overlay;
+               right: 80px;
+               bottom: 60px;
+              }
+                .booking-btn{
+                    width: 30%;
+                    height: 15%;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: orangered;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+               .all-package-btn{
+                 background-color: orangered;
+                 color: white;
+                 font-size: 20px;
+                 font-weight: 800;
+                 width: 280px;
+                 height: 50px;
+                 border: none;
+                 border-radius: 5px;
+                 /* margin-left: 32%; */
+                 margin: 2% 40%;
+               }
+               .newsletter-content{
+                 gap: 5%;
+               }
+               .perfect-place{
+                 width: 75%;
+               }
+               .see-more-btn{
+                 width: 30%;
+                 height: 10%;
+                 background-color: orangered;
+                 color: white;
+                 border: none;
+                 color: white;
+                 font-size: 20px;
+                 font-weight: 800;
+                 border-radius: 6px;
+               }
+               .mountain-video{
+                 position: relative;
+               }
+               .mountain-video h1{
+                 position: absolute;
+                bottom: 220px;
+                 left: 150px;
+               }
+               #bangladesh-title-video{
+                position: absolute;
+                bottom: 190px;
+                 left: 230px;
+                 color: white;
+               }
+               .mountain-video i{
+                 width: 50%;
+                 position: absolute;
+                bottom:  20px;
+                color: white;
+               }
+
+                  /* newsletter */
+                  /* .newsletter-section{
+                    border: 2px solid green;
+                  } */
+                  .newsletter-container{
+                    max-width: 80%;
+                    /* border: 2px solid red; */
+                  }
+                  .newsletter-content{
+                   
+                   
+                    gap: 2%;
+                  }
+           
+                  .newsletter-description{
+                   padding: 2%;
+                    border: 2px solid orange;
+                    border-radius: 6px;
+                    background-color: white;
+                    flex-direction: column;
+                    gap: 6%;
+                 text-align: left;
+                  }
+                .title-of-newsletter{
+                  font-size: 36px;
+                 font-weight:900;
+                }
+               .newsletter-subscribe-btn{
+                 width: 100%;
+                 height: 10%;
+                 border-radius: 6px;
+                 background-color: orangered;
+                 border: none;
+                 color: white;
+                 font-size: 20px;
+                 font-weight: 800;
+               }
+               .newsletter-input{
+                 width: 100%;
+                 border-radius: 6px;
+                 border: none;
+                 background-color: rgba(197, 203, 207, 0.356);
+               }
+             
+               .newsletter-img{
+                
+                 position: relative;
+               }
+           
+               .discount-card{
+                 position: absolute;
+                 width: 220px;
+                 height: 70px;
+                 border-radius: 7px;
+                 padding: 10px 20px;
+                 bottom: 60px;
+                 right: -5px;
+                 transform: rotate(-30deg);
+               }
+ 
+            
+              /* .footer-heading{
+               width: 100%;
+              
+              } */
+               .footer-part{
+                 width: 100%;
+                 background-color: blanchedalmond;
+                 /* border: 2px solid red; */
+               }
+               .footer-content{
+                 padding: 5%;
+                 flex-direction: column;
+               }
+                footer{
+                max-width: 70%;
+                 text-align: center;
+                 margin-top: 5%;
+                }
+                .contacts{
+                 gap: 10px;
+                }
+                
+                .footer-heading{
+                 gap:2px;
+                 align-items: center;
+                }
+ 
